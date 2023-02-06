@@ -13,11 +13,11 @@ body {
     color: #e5e7eb;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px 20px 50px;
+    padding: 0px 50px 20px 50px;
 }
 
 .logo{
-    font-size: 24px;
+    font-size: 14px;
 }
 
 .links{
@@ -42,12 +42,23 @@ body {
 }
 
 .hero-title{
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 .hero-para{
     font-size: 18px;
+}
+
+.hero button{
+    background-color: #3882f6;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.hero-image{
+    padding: 0px 0px 0px 50px;
 }
 
 
@@ -67,9 +78,14 @@ body {
 
 .quote{
     background-color: #b3b5b9;
-    font-size: 26px;
+    font-size: 24px;
     font-style: italic;
     text-align: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.author{
+    text-align: right;
 }
 
 /* signup */
